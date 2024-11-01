@@ -1,0 +1,301 @@
+.vstemplate-header {
+  margin: 0 0 0 6px;
+  padding: 9px 0 0;
+  width: 98.2%;
+  background:#BBBBBB;color:white;font-weight:bold;width:;height:21px;
+}
+#btn {
+  float: left;
+  width: 107px !important;
+  margin-top:26px;
+}
+.first-list-content {
+  float: left;
+  height: 99px;
+  overflow-y: scroll;
+ 
+  width: 99%;
+  background:white;
+}
+#mask {
+  background-color: #000000;
+  height: 768%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+
+textarea {
+  width:61%;
+}
+
+#popupwindow {
+  border: 0 solid #9E013D;
+  color: #FFFFFF;
+  height: auto !important;
+  left: 278px;
+  opacity: 1;
+  position: fixed;
+  top: 107px;
+  width: 70%;
+  z-index: 9999999;
+}
+
+#pop_cross {
+  float: right;
+  height: 29px;
+  margin: 0;
+  position: relative;
+  width: 29px;
+  z-index: 99999999;
+}
+.text_area_update {
+  float: left;
+  height: 100px;
+  position: relative;
+  width: 100%;
+}
+.text_area_update textarea {
+  float: left;
+  height: 295px;
+  width: 100%;
+}
+
+
+#pop_cross img {
+  cursor: pointer;
+  float: right;
+  margin: -12px -14px 0 0;
+}
+.btns
+{
+width:40%;
+float:left;
+margin-right:40px;
+
+
+}
+.under
+{
+
+
+  height:45px;
+  padding:5px;
+  width:auto;
+background:#979797;
+font-weight:bold;
+color:white;
+border-radius:6px;
+}
+.above
+{
+font-weight:bold;
+color:white;
+border-radius:6px;
+  height: 45px;
+  padding: 5px;
+  width: auto;
+float:right;
+background:#78C457;
+}
+
+.pop_1 {
+  float: left;
+  height: 400px;
+  margin: 1px 0 0;
+  padding: 8px 14px;
+  width: 100%;
+background:#fff;
+}
+
+.pop_1 .tit1 {
+  color: black;
+  float: left;
+  font-size: 14px;
+  margin-bottom: 3px;
+  margin-top: 124px;
+  padding: 5px 10px;
+  width: 396px;
+}
+
+.comp_logo > img {
+  float: left;
+}
+.pages_title_content {
+  line-height: 32px;
+color:#000000 !important;
+}
+.vs_title {
+  border-bottom: 1px solid #D8D8D8;
+  float: left;
+  font-size: 11px;
+  height: auto;
+  margin: 0;
+  padding: 0 !important;
+  position: relative;
+  width: 84%;
+}
+.vs_otpt {
+  float: left;
+  font-size: 11px;
+  margin: 0;
+  position: relative;
+  top: -35px;
+  width: 100%;
+}
+.page-checkbox {
+  float: left !important;
+  display:inline-block;
+  width: 9% !important;
+}
+.vs_checkbx {
+
+  height: auto;
+  width: auto;
+}
+.otpt {
+  float: left;
+  width: 100%;
+}
+.first-list-title {
+  background: none repeat scroll 0 0 #BBBBBB;
+  float: left;
+  height: 25px;
+  padding: 2px;
+  width: 98%;
+}
+.first-list-box {
+  color: white;
+  float: left;
+  height: auto;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  padding: 6px;
+  width: 95%;
+}
+.list-of-all-pages {
+  border: 1px solid #D8D9D9;
+  float: left;
+  height: auto;
+  margin-left: 6px;
+  width: 23.3%;
+}
+#text {
+  float: left;
+  height: 290px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#title {
+  float: left;
+  height: 36px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.vstemplate-form {
+  float: left;
+  margin-left: 4px;
+  width: 74.2%;
+}
+
+//CSS FOR ANIMATION DIV
+
+
+﻿@charset "utf-8";
+
+/* Preloader */
+#preloader {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:black; 
+opacity:0.5;/* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px !important;
+	height:74px !important;
+	position:absolute !important;
+	left:50% !important; /* centers the loading animation horizontally one the screen */
+	top:3% !important;
+right:50% !important;/* centers the loading animation vertically one the screen */
+ /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	  margin: 59px 0 0 -112px; /* is width and height divided by two */
+}
+#please-title > input {
+  color: black !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  position: relative !important;
+  right: 37% !important;
+  width: auto !important;
+}
+.error {
+  width: 534px;
+  float: left;
+  position: relative;
+  color: #fff;
+  opacity: 1;
+}
+#preloader
+{
+position:absolute;
+}
+.success{
+  width: 534px;
+  float: left;
+  position: relative;
+  color: #fff;
+  opacity: 1;
+}
+
+#con_content {
+ 
+}
+
+//END OF CSS FOR ANIMATION DIV
+
+//collipsomatic
+ .con_content
+{
+
+
+display:none;
+
+
+}
+.collapseomatic {cursor: pointer; color:#258AAC; font-size:15px; border-bottom:1px solid #F2F2F2; display:block; padding:5px 0 3px;}
+.collapseomatic span {background:url("../images/arrow-down.png") no-repeat left 2px; padding:0 0 0 15px;}
+.collapseomatic_content {margin-top:15px;}
+.collapseomatic_content a {color:#258AAC !important; text-decoration:none;}
+.collapseomatic_content a:hover {color:#999 !important; text-decoration:underline;}
+.arrowright {background-position:top right; padding:0 16px 10px 0;}
+.noarrow {background-image:none !important; padding:0 0 10px 0;}
+.colomat-hover {text-decoration:none;}
+
+
+.colomat-close span {background:url("../images/arrow-up.png") no-repeat left 4px; border:none;}
+div.colomat-close {background:none;}
+.collapseomatic_excerpt,
+.collapseomatic_content {margin-top:0px; margin-left:15px; padding:0px;}
+.content_collapse_wrapper {position:absolute; left:-999em;}
+.collapseall,
+.expandall {cursor:pointer;}
+.collapseall:hover,
+.expandall:hover {text-decoration:underline;}
+.maptastic {position:absolute !important; left:-10000px !important; display:block !important;}
+.collapseomatic_content h3 {color:#01B5CC; background:none; padding:0; margin:10px 0; text-transform:none; font-size:13px; font-weight:normal;}
+.collapseomatic_excerpt {cursor:pointer; margin-bottom:10px;}
+.nomargin {margin:0 !important;}
+.breakLine {width:100%; height:20px; clear:both;}
+
+//end of collipsomatic
+
